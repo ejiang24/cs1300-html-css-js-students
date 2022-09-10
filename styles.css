@@ -1,7 +1,22 @@
 #cs1300-gallery {
   background-color: lightblue;
+  font-family: "Hind";
 }
 
-.gallery-container {
+.gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
+
+.gallery-item {
+  height: 13rem;
+  width: 13rem;
+  margin: 1rem; 
+}
+
+
+
+
+
