@@ -51,9 +51,7 @@ const updatePage = async () => {
   name.innerHTML = fruitNameArray;
 
   // TODO: Append your new element to the page
-  gallery.append(fruitNameArray);
-  
-
+  gallery.append(name);
 }
 
 // SAMPLE CODE of how to create and append a new HTML element to the page
